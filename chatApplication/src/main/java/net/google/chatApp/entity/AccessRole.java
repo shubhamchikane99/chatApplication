@@ -21,7 +21,7 @@ public class AccessRole {
 
 	@Id
 	@Column(name = "id")
-	private String id = UUID.randomUUID().toString();
+	private String id = UUID.randomUUID().toString(); 
 
 	@Column(name = "access_role_name")
 	private String accessRoleName;
